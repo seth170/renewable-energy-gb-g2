@@ -2,9 +2,9 @@
 
 ## 1. Introduction
 
-This folder contains the individual contributions of all five group members for Week 1 of the DSA 1080A group project.
+This folder contains each group member's individual contributions for Week 1 of the DSA 1080A group project.
 
-Each member is responsible for completing and submitting their assigned tasks. The contributions are organised in this folder to make the group's work easy to access, review and assess.
+Each member is responsible for completing and submitting their assigned tasks. The contributions are organised in this folder to make the group's work easy to access, review, and assess.
 
 ## 2. Project Title
 
@@ -26,11 +26,11 @@ The following table identifies the work submitted by each group member.
 
 | Group Member | Assigned Task | Submitted File | Status |
 |---|---|---|---|
-| Member 1 | [Task assigned] | [Filename] | Pending |
-| Member 2 | [Task assigned] | [Filename] | Pending |
-| Member 3 | [Task assigned] | [Filename] | Pending |
-| Member 4 | [Task assigned] | [Filename] | Pending |
-| Member 5 | [Task assigned] | [Filename] | Pending |
+| [Member 1] | [Task assigned] | [Filename] | [Pending] |
+| [Member 2] | [Task assigned] | [Filename] | [Pending] |
+| [Member 3] | [Task assigned] | [Filename] | [Pending] |
+| [Member 4] | [Task assigned] | [Filename] | [Pending] |
+| [Member 5] | [Task assigned] | [Filename] | [Pending] |
 
 *The table will be updated as members submit their contributions.*
 
