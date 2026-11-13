@@ -55,12 +55,14 @@ print("Duplicated timestamps:", df["utc_timestamp"].duplicated().sum())
 ## 4. Key Findings & Analysis
 
 1. **Duplicate Records & Temporal Integrity:**
-   - Both df.duplicated().sum() and df["utc_timestamp"].duplicated().sum() returned as 0. This confirms that the time series is continuous, strictly unique per timestamp and free of redundant or repeated record entries across all 50,401 rows.
+   - Both df.duplicated().sum() and df["utc_timestamp"].duplicated().sum() returned as 0.
+     This confirms that the time series is continuous, strictly unique per timestamp and free of redundant or repeated record entries across all 50,401 rows.
 
 2. **Columns with Highest Missing-Value Counts:**
-   - The highest concentrations of missing data occur in the **profile** and **capacity** parameters for solar and wind  with each missing approximately **6,400 to 6,649 values** (~13.1% to 13.2% of the dataset). 
+   - The highest concentrations of missing data occur in the **profile** and **capacity** parameters for solar and wind  with each missing approximately **6,400 to 6,649         values** (~13.1% to 13.2% of the dataset). 
    - Operational variables exhibit very low missing counts (ranging from 7 to 121 rows,or < 0.25%).
 
 3. **Impact on Subsequent Analysis:**
-   - **Temporal Continuity:** The complete absence of duplicate timestamps ensures that time-series indexing and resampling can be performed seamlessly without alignment or duplication errors.
-   - **Handling Capacity & Profile Gaps:** The 13.1% missing data in capacity and profile metrics likely stems from early reporting gaps or seasonal data collection boundaries. Imputation strategies (such as linear interpolation or forward-fill) will be needed in Week 3.
+   - **Temporal Continuity:** The complete absence of duplicate timestamps ensures that time-series indexing and resampling can be performed seamlessly
+       without alignment or duplication errors.
+   - **Handling Capacity & Profile Gaps:** The 13.1% missing data in capacity and profile metrics likely stems from early reporting gaps or seasonal data collection boundaries.
