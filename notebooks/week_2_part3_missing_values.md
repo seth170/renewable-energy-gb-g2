@@ -36,17 +36,17 @@
 ```python
 import pandas as pd
 
-# Load dataset
+# Loading dataset
 df = pd.read_excel('../data/raw/GB_GBN SPECIFIC DATASET.xlsx')
 
-# Calculate missing values and percentages
+# Calculating missing values and percentages
 missing_counts = df.isnull().sum()
 missing_percentage = (df.isnull().sum() / len(df)) * 100
 
 print(missing_counts)
 print(missing_percentage)
 
-# Check duplicates
+# Checking duplicates
 print("Total duplicated rows:", df.duplicated().sum())
 print("Duplicated timestamps:", df["utc_timestamp"].duplicated().sum())
 
